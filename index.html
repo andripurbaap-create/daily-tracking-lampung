@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Daily Tracking Lampung</title>
+  <meta name="theme-color" content="#F06419">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Daily Tracking">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <style>
+    *{box-sizing:border-box} html,body{margin:0;width:100%;height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    body{display:grid;place-items:center;background:#fffaf5;color:#14213d}
+    .wrap{text-align:center;padding:28px;max-width:430px}
+    img{width:120px;height:120px;object-fit:contain}
+    h1{font-size:24px;margin:16px 0 2px} .edition{color:#f06419;font-weight:800;letter-spacing:.12em;font-size:13px}
+    p{color:#6b7280;line-height:1.5;margin:14px 0 20px}
+    a{display:block;background:#f06419;color:#fff;text-decoration:none;font-weight:800;padding:14px 18px;border-radius:14px}
+    small{display:block;margin-top:12px;color:#9ca3af}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <img src="./icon-192.png" alt="U Flow">
+    <h1>Daily Tracking Lampung</h1>
+    <div class="edition">UNSTOPPABLE 2.0</div>
+    <p>One Team. One Movement. One Goal.</p>
+    <a href="https://script.google.com/macros/s/AKfycbwy6L4_QSE0l6SuZD1HlzwYfMnfYcKXkDScjLusB5t83IkYiXsTQBlCNIHwv10jUkSxGw/exec">Buka Daily Tracking</a>
+    <small>Tambahkan halaman ini ke Home Screen untuk menggunakan ikon U Flow.</small>
+  </main>
+  <script>
+    // Bila dibuka dari shortcut Home Screen, beri waktu singkat agar launcher tetap stabil.
+    if (window.navigator.standalone === true) {
+      setTimeout(function() { window.location.replace("https://script.google.com/macros/s/AKfycbwy6L4_QSE0l6SuZD1HlzwYfMnfYcKXkDScjLusB5t83IkYiXsTQBlCNIHwv10jUkSxGw/exec"); }, 450);
+    }
+  </script>
+</body>
+</html>

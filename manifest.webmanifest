@@ -1,0 +1,23 @@
+{
+  "name": "Daily Tracking Lampung - UNSTOPPABLE 2.0",
+  "short_name": "Daily Tracking",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#FFFAF5",
+  "theme_color": "#F06419",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
